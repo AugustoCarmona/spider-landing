@@ -101,7 +101,7 @@
     transform: translate3d(270px, 0, 0); /* scroll right */
 }
 .carousel__container:hover .carousel-item {
-    opacity: 0.3; /* debe ir en 0.3 */
+    opacity: 0.3;
 }
 .carousel__container:hover .carousel-item:hover {
     transform: scale(1.5);
