@@ -75,7 +75,7 @@
 .carousel {
     width: 100%;
     overflow: scroll;
-    padding: 30px;
+    /* padding: 30px; */
     position: relative; /* this element is the father, all the elements inside, will be positioned in relation to this */
 }
 .carousel__container {
@@ -87,10 +87,10 @@
 /* _carousel item_ */
 .carousel-item {
     width: 500px;
-    height: 350px;
+    height: 250px;
     border-radius: 20px;
     overflow: hidden;
-    margin-right: 10px;
+    margin: 0 10px;
     display: inline-block; /* to place items horizontally */
     cursor: pointer;
     transition: 450ms;
@@ -111,7 +111,7 @@
 /* _carousel item img and details_ */
 .carousel-item_img {
     width: 500px;
-    height: 350px;
+    height: 250px;
     border-radius: 20px;
     object-fit: cover;
 }
