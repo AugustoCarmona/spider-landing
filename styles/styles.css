@@ -86,7 +86,6 @@
 
 /* _carousel item_ */
 .carousel-item {
-    background-color: var(--scarlet);
     width: 500px;
     height: 350px;
     border-radius: 20px;
@@ -113,10 +112,12 @@
 .carousel-item_img {
     width: 500px;
     height: 350px;
+    border-radius: 20px;
     object-fit: cover;
 }
 .carousel-item__details {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 20px;
     color: var(--white);
     font-size: 80px;
     font-weight: var(--font-bold_b);
