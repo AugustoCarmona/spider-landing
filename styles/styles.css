@@ -171,14 +171,13 @@ footer a {
 }
 
 /* -------------- MEDIA QUERIES -------------- */
-@media only screen and (min-width: 102.4rem) {
+@media only screen and (min-width: 1024px) {
     /* -------------- HEADER -------------- */
     .header {
         justify-content: space-between;
     }
 
     /* -------------- MAIN SECTION -------------- */
-
     /* hero */
     .hero .hero-img {
         height: 80rem;
